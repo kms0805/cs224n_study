@@ -1,0 +1,13 @@
+name: cs224n_a3
+channels:
+  - pytorch
+  - nvidia/label/cuda-11.4.0
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - tqdm
+  - docopt
+  - pytorch
+  - torchvision
+  - cuda-toolkit=11.4
